@@ -1,6 +1,5 @@
 # 前言
 # runtime-Demo
-runtime6个方法例子_Demo
 ##本次开发环境
 Xcode:7.2 
 ##
