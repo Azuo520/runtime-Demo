@@ -1,7 +1,10 @@
 # 前言
 # runtime-Demo
 runtime6个方法例子_Demo
-
+##本次开发环境
+Xcode:7.2 
+##
+iOS Simulator: iphone6
 ## 内容
 
 runtime6个方法使用例子：
