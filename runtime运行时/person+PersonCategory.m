@@ -13,8 +13,7 @@ const char * str = "myKey";  //做为key，字符常量 必须是C语言字符�
 
 @implementation person (PersonCategory)
 
--(void)setHeight:(float)height
-{
+- (void)setHeight:(float)height {
     NSNumber *num = [NSNumber numberWithFloat:height];
     /*
      第一个参数是需要添加属性的对象；
@@ -24,10 +23,11 @@ const char * str = "myKey";  //做为key，字符常量 必须是C语言字符�
      */
     objc_setAssociatedObject(self, str, num, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
--(float)height
-{
-    //提取属性的值:
+
+- (float)height {
+    // 提取属性的值:
     NSNumber *number =  objc_getAssociatedObject(self, str);
+    
     return [number floatValue];
 }
 

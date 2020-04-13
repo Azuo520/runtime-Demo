@@ -72,10 +72,6 @@
 				9FCA19181CEEEE7200BD245D /* person+PersonCategory.m */,
 				9FBD28581CE5C9A9007B15C4 /* person.h */,
 				9FBD28591CE5C9A9007B15C4 /* person.m */,
-				9FBD284A1CE5C959007B15C4 /* Main.storyboard */,
-				9FBD284D1CE5C959007B15C4 /* Assets.xcassets */,
-				9FBD284F1CE5C959007B15C4 /* LaunchScreen.storyboard */,
-				9FBD28521CE5C959007B15C4 /* Info.plist */,
 				9FBD28411CE5C959007B15C4 /* Supporting Files */,
 			);
 			path = "runtime运行时";
@@ -84,6 +80,10 @@
 		9FBD28411CE5C959007B15C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9FBD284A1CE5C959007B15C4 /* Main.storyboard */,
+				9FBD284D1CE5C959007B15C4 /* Assets.xcassets */,
+				9FBD284F1CE5C959007B15C4 /* LaunchScreen.storyboard */,
+				9FBD28521CE5C959007B15C4 /* Info.plist */,
 				9FBD28421CE5C959007B15C4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -128,6 +128,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -275,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "runtime运行时/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Azuo.runtime---";
@@ -286,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "runtime运行时/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Azuo.runtime---";

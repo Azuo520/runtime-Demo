@@ -10,9 +10,9 @@
 
 @interface person : NSObject
 
-@property (nonatomic,assign)int age;
+@property (nonatomic, assign) NSInteger age;
 
--(void)func1;
--(void)func2;
+- (void)func1;
+- (void)func2;
 
 @end
